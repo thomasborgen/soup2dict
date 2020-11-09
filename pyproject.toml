@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "soup2json"
+version = "1.0.0"
+description = "Turns your beautifulsoup4 soup into usable json"
+authors = ["Thomas Borgen <thomas@borgenit.no>"]
+
+keywords = [
+  "beautifulsoup to json",
+  "beautifulsoup to dict",
+  "data transformation",
+  "html to json",
+  "xml to json",
+  "dict",
+  "json"
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+classes = "^0.1.0"
+beautifulsoup4 = "^4.9.3"
+simplejson = "^3.17.2"
+
+[tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.14.1"
+mypy = "0.720"
+
+safety = "^1.8"
+
+pytest = "^5.2"
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
