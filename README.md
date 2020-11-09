@@ -8,6 +8,11 @@ ___
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 ___
 
+
+## Why
+
+Its nice to have a convenient way to change your soup into json.
+
 ## Installation
 
 Get package with pip or poetry
