@@ -2,9 +2,9 @@
 
 BeautifulSoup4 to python dictionary and json converter
 ___
-![test](https://github.com/thomasborgen/beautifuldict/workflows/test/badge.svg)
-[![codecov](https://codecov.io/gh/thomasborgen/beautifuldict/branch/master/graph/badge.svg)](https://codecov.io/gh/thomasborgen/beautifuldict)
-[![Python Version](https://img.shields.io/pypi/pyversions/beautifuldict.svg)](https://pypi.org/project/beautifuldict/)
+![test](https://github.com/thomasborgen/soup2json/workflows/test/badge.svg)
+[![codecov](https://codecov.io/gh/thomasborgen/soup2json/branch/master/graph/badge.svg)](https://codecov.io/gh/thomasborgen/soup2json)
+[![Python Version](https://img.shields.io/pypi/pyversions/soup2json.svg)](https://pypi.org/project/soup2json/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 ___
 
