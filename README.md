@@ -1,4 +1,4 @@
-# BeautifulDict
+# Soup2Json
 
 BeautifulSoup4 to python dictionary and json converter
 ___
@@ -13,11 +13,11 @@ ___
 Get package with pip or poetry
 
 ```sh
-pip install beautifuldict
+pip install soup2json
 ```
 
 ```sh
-poetry add beautifuldict
+poetry add soup2json
 ```
 
 ## Example
@@ -26,7 +26,7 @@ poetry add beautifuldict
 
 from bs4 import BeautifulSoup
 
-from beautifuldict import convert
+from soup2json import convert
 
 html_doc = """
 <html>
