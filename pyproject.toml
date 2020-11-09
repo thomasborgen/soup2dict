@@ -32,9 +32,9 @@ simplejson = "^3.17.2"
 wemake-python-styleguide = "^0.14.1"
 mypy = "0.720"
 
-safety = "^1.8"
+safety = "^1.9.0"
 
-pytest = "^5.2"
+pytest = "^6.1.2"
 pytest-cov = "^2.10.1"
 
 [build-system]
