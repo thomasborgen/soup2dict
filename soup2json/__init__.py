@@ -65,8 +65,8 @@ def _convert_rs(instance: Union[element.ResultSet, list]) -> dict:
 @convert.instance(element.Stylesheet)
 @convert.instance(element.Script)
 @convert.instance(element.TemplateString)
-def _convert_ns(  # noqa: WPS216 - allow may decorators
-    instance: Union[  # noqa: WPS320
+def _convert_ns(
+    instance: Union[
         element.NavigableString,
         element.Comment,
         element.CData,
