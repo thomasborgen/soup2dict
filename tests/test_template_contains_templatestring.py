@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-from soup2json import convert
+from soup2dict import convert
 
 
 def test_template_contains_templatestring():
