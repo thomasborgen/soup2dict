@@ -634,7 +634,7 @@ requests = "*"
 setuptools = "*"
 
 [[package]]
-category = "main"
+category = "dev"
 description = "Simple, fast, extensible JSON encoder/decoder for Python"
 name = "simplejson"
 optional = false
@@ -786,7 +786,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=3.5,<3.7.3 || >3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pytest-cov", "jaraco.test (>=3.2.0)", "jaraco.itertools", "func-timeout", "pytest-black (>=0.3.7)", "pytest-mypy"]
 
 [metadata]
-content-hash = "f0edfc51996c296f108a3451f1055845bfe0b6b4b93049f301be20806fffde00"
+content-hash = "183b86e0c9f9c1f75fc636a60a519801ad2a5aef743a21b4ed8291f5fb86c227"
 python-versions = "^3.6"
 
 [metadata.files]

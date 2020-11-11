@@ -1,37 +1,37 @@
-# Soup2Json
+# soup2dict
 
-BeautifulSoup4 to python dictionary and json converter
+BeautifulSoup4 to python dictionary converter
 ___
-![test](https://github.com/thomasborgen/soup2json/workflows/test/badge.svg)
-[![codecov](https://codecov.io/gh/thomasborgen/soup2json/branch/master/graph/badge.svg)](https://codecov.io/gh/thomasborgen/soup2json)
-[![Python Version](https://img.shields.io/pypi/pyversions/soup2json.svg)](https://pypi.org/project/soup2json/)
+![test](https://github.com/thomasborgen/soup2dict/workflows/test/badge.svg)
+[![codecov](https://codecov.io/gh/thomasborgen/soup2dict/branch/master/graph/badge.svg)](https://codecov.io/gh/thomasborgen/soup2dict)
+[![Python Version](https://img.shields.io/pypi/pyversions/soup2dict.svg)](https://pypi.org/project/soup2dict/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 ___
 
 
 ## Why
 
-Its nice to have a convenient way to change your soup into json.
+Its nice to have a convenient way to change your soup into dict.
 
 ## Installation
 
 Get package with pip or poetry
 
 ```sh
-pip install soup2json
+pip install soup2dict
 ```
 
 ```sh
-poetry add soup2json
+poetry add soup2dict
 ```
 
 ## Example
 
 ```python
-
+import simplejson
 from bs4 import BeautifulSoup
 
-from soup2json import convert
+from soup2dict import convert
 
 html_doc = """
 <html>
@@ -59,7 +59,11 @@ soup = BeautifulSoup(html_doc, 'html.parser')
 # Convert it to a dictionary with convert()
 dict_result = convert(soup)
 
-print(dict_result)
+with open('output.json', 'w') as output_file:
+    output_file.write(
+        simplejson.dumps(dict_result, indent=2),
+    )
+
 ```
 
 ## Output

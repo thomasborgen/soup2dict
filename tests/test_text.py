@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-from soup2json import convert
+from soup2dict import convert
 
 
 def test_direct_descendants_text_are_caught():
