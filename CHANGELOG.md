@@ -7,6 +7,11 @@
 | otherwise | patch |
 
 
+## 1.0.1 - The License
+
+Patch adds MIT LICENSE and updates metadata in pyproject.toml
+
+
 ## 1.0.0 - The Converter
 
 First Release. Should be able handle most BeautifulSoup stuff
