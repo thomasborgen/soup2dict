@@ -7,6 +7,17 @@
 | otherwise | patch |
 
 
+## Latest changes
+
+### Breaking
+
+* soup2dict drops python 3.6 support
+
+### Features
+
+* Add support for python 3.9 and 3.10
+
+
 ## 1.0.1 - The License
 
 Patch adds MIT LICENSE and updates metadata in pyproject.toml
