@@ -9,6 +9,11 @@
 
 ## Latest changes
 
+## 2.0.0
+
+No new features in this release, but we now support python 3.9 and 3.10
+
+
 ### Breaking
 
 * soup2dict drops python 3.6 support
