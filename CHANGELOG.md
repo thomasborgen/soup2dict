@@ -17,6 +17,12 @@
 
 * Add support for python 3.9 and 3.10
 
+### Internal
+
+* Fixes poetry install in github workflows
+* Cleans up github workflow
+* Add python 3.9 and 3.10 to github workflows
+
 
 ## 1.0.1 - The License
 
