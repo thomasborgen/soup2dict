@@ -34,7 +34,7 @@ classes = "^0.1.0"
 beautifulsoup4 = "^4.9.3"
 
 [tool.poetry.dev-dependencies]
-wemake-python-styleguide = "^0.14.1"
+wemake-python-styleguide = "^0.16.0"
 mypy = "0.720"
 
 safety = "^1.9.0"
