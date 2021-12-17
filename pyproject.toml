@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "soup2dict"
-version = "1.0.1"
+version = "2.0.0"
 description = "Turns your beautifulsoup4 soup into python dictionary"
 authors = ["Thomas Borgen <thomas@borgenit.no>"]
 
