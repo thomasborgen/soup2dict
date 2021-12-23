@@ -38,8 +38,8 @@ expected_result = {
 }
 
 
-def test_sub_elements_allways_array():
-    """Create soup and check elements are arrays."""
+def test_as_json_true_dumps_to_json():
+    """Convert result should be json when as_json is true."""
     soup = BeautifulSoup(html_doc, 'html.parser')
 
     assert convert(soup, as_json=True) == json.dumps(expected_result)
