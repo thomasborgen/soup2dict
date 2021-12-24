@@ -9,6 +9,10 @@
 
 ## Latest changes
 
+### Internal
+
+* Fix CI after main branch change
+
 ## 2.0.0
 
 No new features in this release, but we now support python 3.9 and 3.10
