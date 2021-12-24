@@ -29,13 +29,13 @@ def transform(instance) -> dict:
     """Convert beautifulsoup to dict. This is a typeclass definition."""
 
 
-@transform.instance(BeautifulSoup)
+@transform.instance(BeautifulSoup)  # type: ignore
 def _transform_bs(instance: BeautifulSoup) -> dict:
     """Handle The Soup."""
     return transform(instance.contents)
 
 
-@transform.instance(element.ResultSet)
+@transform.instance(element.ResultSet)  # type: ignore
 @transform.instance(list)
 def _transform_rs(instance: Union[element.ResultSet, list]) -> dict:
     """Handle list and ResultSet types."""
@@ -83,7 +83,7 @@ def _transform_ns(
     return str(instance).strip().strip('\n') or None
 
 
-@transform.instance(element.Tag)
+@transform.instance(element.Tag)  # type: ignore
 def _transform_tag(instance: element.Tag) -> dict:
     """Handle Tag type."""
     tag_result = _attribute_at_prepender(instance.attrs)
