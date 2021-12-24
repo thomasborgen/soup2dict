@@ -9,6 +9,7 @@ from soup2dict.transformer import transform
 @overload
 def convert(
     soup: BeautifulSoup,
+    *,
     as_json: Literal[False],
 ) -> dict:
     """Return dict when as_json is false."""
@@ -17,6 +18,7 @@ def convert(
 @overload
 def convert(
     soup: BeautifulSoup,
+    *,
     as_json: Literal[True],
 ) -> str:
     """Return json string when as_json is True."""
@@ -31,6 +33,7 @@ def convert(
 
 def convert(
     soup: BeautifulSoup,
+    *,
     as_json: bool = False,
 ) -> Union[dict, str]:
     """Run soup to dict transformer and dumps to json if as_json is True."""
