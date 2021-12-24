@@ -1,7 +1,8 @@
 import json
-from typing import Literal, Union, overload
+from typing import Union, overload
 
 from bs4 import BeautifulSoup
+from typing_extensions import Literal
 
 from soup2dict.transformer import transform
 
