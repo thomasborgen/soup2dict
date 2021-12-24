@@ -11,11 +11,11 @@
 
 ### Feature
 
-* Add `as_json` parameter to `convert`
+* Add `as_json` keyword parameter to `convert`
 
 ### Internal
 
-* Moves `classes.typeclass` functions to `transformer.py` and renames the `convert` function to `transform`. This is so that we can have a new `convert` function in our `__init__.py` with the new parameter and we won't have a breaking change.
+* Moves `classes.typeclass` functions to `transformer.py` and renames the `convert` function to `transform`. This is so that we can have a new `convert` function in our `__init__.py` with the new parameter and this feature will not introduce a breaking change.
 * Fix CI after main branch change
 
 
