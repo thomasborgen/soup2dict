@@ -26,7 +26,7 @@ expected_result = {
                 },
                 {
                     '#text': 'test',
-                    'navigablestring': ['test']
+                    'navigablestring': ['test'],
                 },
                 {
                     '#text': 'test',
