@@ -9,6 +9,10 @@
 
 ## Latest changes
 
+# 2.1.0
+
+This release moves some code around and introduces the new keyword argument `as_json: bool` that, if `True`, dumps the soup to `json string` right from the function.
+
 ### Feature
 
 * Add `as_json` keyword parameter to `convert`
