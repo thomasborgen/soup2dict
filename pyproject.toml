@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "soup2dict"
-version = "2.0.0"
-description = "Turns your beautifulsoup4 soup into python dictionary"
+version = "2.1.0"
+description = "Turns your beautifulsoup4 soup into python dictionary or json"
 authors = ["Thomas Borgen <thomas@borgenit.no>"]
 
 license = "MIT"
@@ -21,7 +21,7 @@ keywords = [
 ]
 
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 3 - Beta",
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
   "Topic :: Software Development :: Libraries :: Python Modules",
