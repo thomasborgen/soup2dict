@@ -8,7 +8,7 @@ def test_attributes_are_at_prepended():
     html_doc = """
     <main class="bob arne" abc="test" style="color: red;" />
     """
-    soup = BeautifulSoup(html_doc, 'html.parser')
+    soup: BeautifulSoup = BeautifulSoup(html_doc, 'html.parser')
     main_element = convert(soup)['main'][0]
     assert main_element['@class'] == ['bob', 'arne']
     assert main_element['@abc'] == 'test'
